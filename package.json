@@ -1,0 +1,19 @@
+{
+  "name": "Robo-Facebook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Angleu/Robo-Facebook.git",
+  "author": "Angleu <angleuzua99@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
