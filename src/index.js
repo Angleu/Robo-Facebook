@@ -5,4 +5,4 @@ const app = express();
 app.use(routes);
 
 
-app.listen(5000, () => console.log("Server init!!!"));
+app.listen(process.env.PORT || 5000, () => console.log("Server init!!!"));
